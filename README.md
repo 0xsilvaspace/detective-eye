@@ -43,9 +43,16 @@ Camera → Python Vision Processing → Arduino Communication → Servo Control 
 
 ## Repository Structure
 
-- `raspberry_pi/` — Python vision-processing code
-- `arduino/` — Arduino servo-control code
-- `media/` — Project photographs and demonstration resources
+```text
+detective-eye/
+├── README.md
+├── eye_brain.py
+└── updated_Detective_Eye_Robot_Code.ino
+```
+
+- `README.md`: Project overview, system architecture, and demonstration link.
+- `eye_brain.py`: Python code for the Raspberry Pi's vision-processing and control workflow.
+- `updated_Detective_Eye_Robot_Code.ino`: Arduino sketch for the robotic eye's servo-control system.
 
 ## Demonstration
 
